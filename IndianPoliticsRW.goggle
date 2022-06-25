@@ -1,0 +1,20 @@
+name: Indian Politics (Right) 
+ ! description: Ranks results by priortizing content from Right leaned sources in India.Left goggle will arrive soon... 
+ ! author: tantan
+ ! public: true 
+ ! avatar: #ff6600 
+  
+  
+ $discard,site=thehindu.com 
+ $discard,site=ndtv.com 
+ $discard,site=theprint.in 
+ $discard,site=thequint.com 
+ $discard,site=altnews.in 
+ $discard,site=scroll.in 
+ $discard,site=thenewsminute.com 
+ /the_hindu/$discard,site=instagram.com 
+ /ndtv/$discard,site=instagram.com 
+ /theprintindia/$discard,site=instagram.com 
+ /thewirein/$discard,site=instagram.com 
+ /thenewsminute/$discard,site=twitter.com 
+ /thenewsminute/$discard,site=instagram.com
